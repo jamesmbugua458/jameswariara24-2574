@@ -1,146 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Module 2 Test</title>
+    <title>Elite Fitness Gym</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        .section-title {
+            color: darkred;
+        }
+
+        .internal-box {
+            background-color: #dfe6e9;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
 </head>
+
 <body>
 
-<h1>Module 2 Test</h1>
+<h1>Elite Fitness Gym</h1>
 
-<!-- Line 1: Bold -->
-<p><b>This is a bold paragraph line.</b></p>
+<p class="external-text">Welcome to the best gym in town!</p>
 
-<!-- Line 2: Italics -->
-<p><i>This is an italic paragraph line.</i></p>
-
-<!-- Line 3: Underlined -->
-<p><u>This line is underlined.</u></p>
-
-<!-- Line 4: Superscript -->
-<p>Today is 10<sup>th</sup> March 2026.</p>
-
-<!-- Line 5: Subscript -->
-<p>Water formula is H<sub>2</sub>O and CO<sub>2</sub>.</p>
-
-<!-- Line 6: Strike -->
-<p><strike>This text is struck out.</strike></p>
-
-<!-- Line 7: Highlight -->
-<p><mark>This text is highlighted.</mark></p>
-
-<!-- Line 8: Quotation -->
-<p><q>Consistency is the key to success.</q></p>
-
-<!-- Line 9: Indented Quotation -->
-<blockquote>
-Success usually comes to those who are too busy to be looking for it.
-</blockquote>
-
-<!-- Line 10: Footer -->
-<footer>
-<p>This is the footer section of the page.</p>
-</footer>
-
-<hr>
-
-<!-- Line 11: Line Breaks (4 lines) -->
-<p>
-Line one<br>
-Line two<br>
-Line three<br>
-Line four
+<!-- INLINE CSS -->
+<p style="color: green; font-size: 18px;">
+This paragraph is styled using Inline CSS.
 </p>
 
-<hr>
-
-<!-- Line 12: 3 lines with HR -->
-<p>First section</p>
-<hr>
-<p>Second section</p>
-<hr>
-<p>Third section</p>
+<div class="internal-box">
+    This box uses Internal CSS.
+</div>
 
 <hr>
 
-<!-- Line 13: Preformatted text -->
-<pre>
-This is line one
-This is line two
-This is line three
-</pre>
+<h2 class="section-title">Our Gym Gallery</h2>
+
+<!-- 5 IMAGE CONTAINERS -->
+
+<div class="container">
+    <h3>Weight Training</h3>
+    <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61" alt="Gym Image 1">
+</div>
+
+<div class="container">
+    <h3>Cardio Section</h3>
+    <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001ab" alt="Gym Image 2">
+</div>
+
+<div class="container">
+    <h3>Boxing Area</h3>
+    <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438" alt="Gym Image 3">
+</div>
+
+<div class="container">
+    <h3>Yoga Training</h3>
+    <img src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74" alt="Gym Image 4">
+</div>
+
+<div class="container">
+    <h3>Personal Training</h3>
+    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b" alt="Gym Image 5">
+</div>
 
 <hr>
 
-<!-- Line 14: Lists -->
-<h2>Unordered List</h2>
-<ul>
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
-<li>Item 4</li>
-<li>Item 5</li>
-</ul>
-
-<h2>Ordered List</h2>
-<ol>
-<li>First</li>
-<li>Second</li>
-<li>Third</li>
-<li>Fourth</li>
-<li>Fifth</li>
-</ol>
-
-<hr>
-
-<!-- Line 15: Nested List -->
-<h2>Nested List</h2>
-<ul>
-<li>Main Item 1
-    <ul>
-        <li>Sub Item 1</li>
-        <li>Sub Item 2</li>
-    </ul>
-</li>
-<li>Main Item 2
-    <ul>
-        <li>Sub Item 3</li>
-        <li>Sub Item 4</li>
-    </ul>
-</li>
-</ul>
-
-<hr>
-
-<!-- Line 17: Table with 10 columns and 5 rows -->
-<h2>Table (10 Columns, 5 Rows)</h2>
-
-<table border="1">
-<tr>
-<th>Col1</th><th>Col2</th><th>Col3</th><th>Col4</th><th>Col5</th>
-<th>Col6</th><th>Col7</th><th>Col8</th><th>Col9</th><th>Col10</th>
-</tr>
-
-<tr>
-<td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
-<td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
-</tr>
-
-<tr>
-<td>11</td><td>12</td><td>13</td><td>14</td><td>15</td>
-<td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
-</tr>
-
-<tr>
-<td>21</td><td>22</td><td>23</td><td>24</td><td>25</td>
-<td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
-</tr>
-
-<tr>
-<td>31</td><td>32</td><td>33</td><td>34</td><td>35</td>
-<td>36</td><td>37</td><td>38</td><td>39</td><td>40</td>
-</tr>
-
-</table>
+<footer style="background-color:#2c3e50; color:white; text-align:center; padding:10px;">
+© 2026 Elite Fitness Gym
+</footer>
 
 </body>
 </html>
